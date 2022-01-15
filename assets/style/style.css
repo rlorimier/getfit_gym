@@ -1,0 +1,106 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+header {
+    background-image: url("..\assets\media\image\gym_blackwhite.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #424656;
+    color: white;
+    padding: 20px 40px;
+}
+
+footer {
+    background-color: #424656;
+    color: white;
+    padding: 20px 40px;
+}
+
+header > nav > ul > li > a, footer > div > a {
+    color: white;
+}
+
+.welcome_getfit {
+    background-color: #0388FC;
+    color: white;
+    text-shadow: 2px 2px #424656;
+    font-weight: 900;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.welcome_getfit_join {
+    text-shadow: none;
+}
+
+.image_header, .footer_logolink {
+    width: 130px;
+}
+
+.mainboxes_mainpage{
+    color: #424656;
+}
+
+.first_box_mainpage{
+    background-color: #8CF387;
+    width: 27%;
+    position: relative;
+    left: 2%;
+    display: block;
+    z-index: 2;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.second_box_mainpage {
+    background-color: #00E4BA;
+    width: 27%;
+    position: absolute;
+    left: 33%;
+    top: 81%;
+    display: block;
+    z-index: 5;
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+
+.third_box_mainpage {
+    background-color: #BCFDFF;
+    width: 27%;
+    height: 21%;
+    position: absolute;
+    left: 65.5%;
+    top: 82%;
+    display: block;
+    z-index: 2;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.covid_mainpage {
+    background-color: #F9F871;
+    font-weight: bolder;
+    padding: 10px 30px;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.text_upper {
+    text-transform: uppercase;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
