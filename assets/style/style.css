@@ -57,24 +57,48 @@ body {
     height: 600px;
     width: 100%; 
     overflow: hidden;
+    position: relative;
 }
 
-#welcome_getfit {
-    clear: both;
-    height: 600px;
+#welcome_image {
+    height: 500px;
     width: 100%;  
     background: url("../media/image/gym_sport.jpg") no-repeat center center;
     background-color: #0388FC;
-    color: white;
-    text-shadow: 2px 2px #424656;
-    font-weight: 900;
-    font-size: x-large;
-    padding: 20px;
 }
 
-.welcome_getfit_join {
-    text-shadow: none;
+#welcome_getfit {
+    font-size: 200%;
+    color: white;
+    text-shadow: 2px 2px #424656;
+
+    width: 900px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+ /*    background-color: #0388FC; */ 
+
+    bottom: 100px;
+    right: 360px;
+
+    position: absolute;
+
 }
+
+#welcome_getfit h2 {
+    font-size: 110%;
+}
+
+#welcome_getfit_join {
+    border: 2px solid red;
+    background-color: red;
+    text-shadow: none;
+    border-radius: 30px;
+    padding: 8px;
+}
+
 
 
 
