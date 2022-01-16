@@ -1,3 +1,10 @@
+    
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
@@ -36,8 +43,12 @@ header > nav > ul > li > a, footer > div > a {
     text-shadow: none;
 }
 
-.image_header, .footer_logolink {
+.header_logo {
     width: 130px;
+}
+
+.footer_logo {
+    width: 100px;
 }
 
 .mainboxes_mainpage{
@@ -104,3 +115,14 @@ header > nav > ul > li > a, footer > div > a {
     text-align: justify;
 }
 
+/*
+#00C4E9 light blue
+#00DBFD ligther blue
+#00A2C5 not so light blue
+#00FFFF aquablue
+#A9AD9B light grey
+#444939 dark grey
+#A8EB12 light geen
+
+
+*/
