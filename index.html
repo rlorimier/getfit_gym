@@ -11,15 +11,20 @@
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
-    <header id="header" class="main_header">
-        <!-- Not sure about the logo. Maybe will replace it for simple text -->
-        <a href="index.html" class="header_logolink" id="headerlogo">
-            <img src="assets/media/image/getfit_logo2.png" alt="GetFit Logo" class="header_logo">
+    <header>
+         <!--
+        <a href="index.html" >
+            <h1 id="headerlogo" class="text_upper">Get Fit</h1>
         </a>
+         Not sure about the logo. Maybe will replace it for simple text
+        <a href="index.html" id="headerlogo">
+            <img src="assets/media/image/getfit_logo2.png" alt="GetFit Logo" class="header_logo">
+        </a> --> 
+
         <nav>
             <ul id="top_navlist" class="text_upper">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 <li>
                     <a href="#">Membership</a>
@@ -36,14 +41,16 @@
             </ul>
         </nav>
     </header>
-    <div class="welcome_getfit text_center">
-        <h1 class="text_upper">Get Fit</h1>
-        <h2>Welcome to the family!</h2>
-        <h2>We have the tools - You make the moves</h2>
-        <nav>
-            <a href="" class="welcome_getfit_join text_upper"><strong>Join now</strong></a>
-        </nav>
-    </div>
+    <section id="welcome">
+        <div id="welcome_getfit">
+            <h1 class="text_upper text_center">Get Fit</h1>
+            <h2>Welcome to the family!</h2>
+            <h2>We have the tools - You make the moves</h2>
+            <nav>
+                <a href="" class="welcome_getfit_join text_upper"><strong>Join now</strong></a>
+            </nav>
+        </div>
+    </section>
     <section class="mainboxes_mainpage">
         <div class="first_box_mainpage text_justify">
             <h3>Classes</h3>

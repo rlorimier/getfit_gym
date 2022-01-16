@@ -8,42 +8,62 @@
 /* body - general style */
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+    font-weight: 300;
+    color: white;
+    background-color: #444939;
 }
 
 /* header */
-#header {
-    background-color: #424656;
-}
 
-.header_logo {
+#headerlogo {
     float: left;
-    width: 130px;
-    margin-top: 10px;
-    margin-left: 30px;
+    width: 280%;
 }
 
 #top_navlist {
     font-size: 120%;
     letter-spacing: 2px;
-    float: right;
-    margin-top: 10px;
+}
+
+#headerlogo, #top_navlist {
+    line-height: 75px;
 }
 
 #top_navlist li {
+    float: left;
     list-style-type: none;
     margin-right: 30px;
 }
 
 #top_navlist li a {
+    text-decoration: none;
     color: white;
     text-shadow: 1px 1px #424656;
-    display: block;
 }
 
+#top_navlist li a:hover {
+    color: #424656;
+    border-bottom: 1px solid #424656;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+
+
 /* body - main section */
-.welcome_getfit {
+#welcome {
+    height: 600px;
+    width: 100%; 
+    overflow: hidden;
+}
+
+#welcome_getfit {
     clear: both;
+    height: 600px;
+    width: 100%;  
+    background: url("../media/image/gym_sport.jpg") no-repeat center center;
     background-color: #0388FC;
     color: white;
     text-shadow: 2px 2px #424656;
