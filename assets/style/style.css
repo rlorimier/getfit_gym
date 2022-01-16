@@ -1,36 +1,49 @@
-    
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* body - general style */
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
 }
 
-header {
-    background-image: url("..\assets\media\image\gym_blackwhite.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* header */
+#header {
     background-color: #424656;
-    color: white;
-    padding: 20px 40px;
 }
 
-footer {
-    background-color: #424656;
-    color: white;
-    padding: 20px 40px;
+.header_logo {
+    float: left;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
-header > nav > ul > li > a, footer > div > a {
-    color: white;
+#top_navlist {
+    font-size: 120%;
+    letter-spacing: 2px;
+    float: right;
+    margin-top: 10px;
 }
 
+#top_navlist li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#top_navlist li a {
+    color: white;
+    text-shadow: 1px 1px #424656;
+    display: block;
+}
+
+/* body - main section */
 .welcome_getfit {
+    clear: both;
     background-color: #0388FC;
     color: white;
     text-shadow: 2px 2px #424656;
@@ -43,14 +56,9 @@ header > nav > ul > li > a, footer > div > a {
     text-shadow: none;
 }
 
-.header_logo {
-    width: 130px;
-}
 
-.footer_logo {
-    width: 100px;
-}
 
+/* body - main menu */
 .mainboxes_mainpage{
     color: #424656;
 }
@@ -91,6 +99,7 @@ header > nav > ul > li > a, footer > div > a {
     border-radius: 10px;
 }
 
+/* covid updates */
 .covid_mainpage {
     background-color: #F9F871;
     font-weight: bolder;
@@ -99,6 +108,18 @@ header > nav > ul > li > a, footer > div > a {
     border: 2px solid black;
 }
 
+/* footer */
+footer {
+    background-color: #424656;
+    color: white;
+    padding: 20px 40px;
+}
+
+.footer_logo {
+    width: 100px;
+}
+
+/* extras */
 .text_upper {
     text-transform: uppercase;
 }
