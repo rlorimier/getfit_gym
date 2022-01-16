@@ -10,7 +10,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     color: white;
-    background-color: #444939;
+    background-color: black;
 }
 
 /* header */
@@ -42,8 +42,8 @@ body {
 }
 
 #top_navlist li a:hover {
-    color: #424656;
-    border-bottom: 1px solid #424656;
+    color: #00FFFF;
+    border-bottom: 1px solid #00FFFF;
 }
 
 .active {
@@ -63,7 +63,7 @@ body {
 #welcome_image {
     height: 500px;
     width: 100%;  
-    background: url("../media/image/gym_sport.jpg") no-repeat center center;
+    background: url("../media/image/gym_sport.jpg") no-repeat top center;
     background-color: #0388FC;
 }
 
@@ -91,11 +91,16 @@ body {
     font-size: 110%;
 }
 
+#welcome_getfit a:hover {
+    color: #00FFFF;
+}
+
 #welcome_getfit_join {
-    border: 2px solid red;
-    background-color: red;
+    color: black;
+    font-weight: bolder;
+    background-color: white;
     text-shadow: none;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 8px;
 }
 
