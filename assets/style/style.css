@@ -18,22 +18,17 @@ body {
     font-family: Gymkhana, Verdana, monospace;
     font-weight: 300;
     color: white;
-    
+    background-color: black;
 }
 
 /* header */
-
-#headerlogo {
-    float: left;
-    width: 20%;
-}
 
 #top_navlist {
     font-size: 100%;
     letter-spacing: 2px;
 }
 
-#headerlogo, #top_navlist {
+#top_navlist a, #top_navlist li {
     line-height: 75px;
 }
 
@@ -199,13 +194,18 @@ body {
 
 /* footer */
 footer {
-    background-color: #424656;
+    background-color: black;
     color: white;
-    padding: 20px 40px;
+    padding: 5px 30px 15px 30px;
+    text-align: center;
 }
 
-.footer_logo {
-    width: 100px;
+footer div nav {
+    padding: 10px;
+}
+
+footer a {
+    padding: 20px
 }
 
 /* extras */
