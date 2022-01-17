@@ -25,11 +25,11 @@ body {
 
 #headerlogo {
     float: left;
-    width: 280%;
+    width: 20%;
 }
 
 #top_navlist {
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 2px;
 }
 
@@ -38,9 +38,9 @@ body {
 }
 
 #top_navlist li {
-    float: left;
+    float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 #top_navlist li a {
@@ -72,7 +72,7 @@ body {
     height: 500px;
     width: 100%;  
     background: url("../media/image/gym_sport.jpg") no-repeat top center;
-    background-color: #0388FC;
+    background-color: black;
 }
 
 #welcome_getfit {
@@ -91,7 +91,11 @@ body {
     bottom: 120px;
     right: 360px;
 
-    position: absolute;
+    margin: auto;
+
+    position: relative;
+
+    margin: -25% 42%;
 
 }
 
@@ -118,45 +122,42 @@ body {
 }
 
 
-
-
 /* body - boxes menu */
 #mainboxes_mainpage{
-    color: black;
-    height: 800px;
-    width: 100%; 
-    overflow: hidden;
-    position: relative;
-}
-/*
-#mainboxes_image {
-    height: 700px;
-    width: 100%; 
     background: url("../media/image/gym_crossfit.jpg") no-repeat center center;
     background-color: black;
-}*/
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
 
-#first_box_mainpage {
-    background-color: red;
-    
-    width: 33%;
+#mainboxes_mainpage div {
+    width: 33.3%;
+    height: 400px;
+    background-color: rgba(253, 252, 252, .3);
     float: left;
+    padding: 90px 40px;
+    border: 8px solid black;
+    box-sizing: border-box;
     
+
 }
 
-#second_box_mainpage {
-    background-color: blue;
-    width: 33%;
-    float: right;
-    
+#mainboxes_mainpage h2, #mainboxes_mainpage p {
+    color: black;
+    text-align: center;
 }
 
-#third_box_mainpage {
-    background-color: green;
-    width: 33%;
-    
-    margin: 0 auto;
-    
+#mainboxes_mainpage p {
+    font-size: larger;
+}
+
+#mainboxes_mainpage a {
+    background-color: rgba(253, 252, 252, .5);
+    color: black;
+    padding: 6px;
+    border-radius: 20px;
+
 }
 
 /*
@@ -195,11 +196,11 @@ body {
     padding: 50px 40px;
     border-radius: 10px;
 }
-*/
+
 
 .mainboxes_buttom {
     color: red;
-}
+}*/
 
 /* covid updates */
 .covid_mainpage {
