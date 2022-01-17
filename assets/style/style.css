@@ -7,6 +7,16 @@
     src: url(../style/font/gymkhana.ttf) format("truetype");
 }
 
+/*
+#00C4E9 light blue
+#00DBFD ligther blue
+#00A2C5 not so light blue
+#00FFFF aquablue
+#A9AD9B light grey
+#444939 dark grey
+#A8EB12 light geen
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -22,8 +32,14 @@ body {
 }
 
 /* header */
+header {
+    width: 100%;
+    height: 80px;
+}
 
 #top_navlist {
+    width: 100%;
+    height: 80px;
     font-size: 100%;
     letter-spacing: 2px;
 }
@@ -54,7 +70,6 @@ body {
 }
 
 
-
 /* body - main section */
 #welcome {
     height: 600px;
@@ -80,8 +95,6 @@ body {
 
     padding-top: 40px;
     padding-left: 10px;
-
- /*    background-color: #0388FC; */ 
 
     bottom: 120px;
     right: 360px;
@@ -225,14 +238,17 @@ footer a {
     text-align: justify;
 }
 
-/*
-#00C4E9 light blue
-#00DBFD ligther blue
-#00A2C5 not so light blue
-#00FFFF aquablue
-#A9AD9B light grey
-#444939 dark grey
-#A8EB12 light geen
+/* contact section */
+#contact {
+    height: 800px;
+    width: 100%; 
+    overflow: hidden;
+    position: relative;
+}
 
-
-*/
+#contact_image {
+    height: 800px;
+    width: 100%;  
+    background: url("../media/image/sports_bell.jpg") no-repeat bottom center;
+    background-color: black;
+}
