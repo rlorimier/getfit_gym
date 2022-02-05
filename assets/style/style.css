@@ -132,7 +132,8 @@ header {
 
 /* body - boxes menu */
 #mainboxes_mainpage{
-    background: url("../media/image/gym_crossfit.jpg") no-repeat center center;
+    background: url("../media/image/kettle-bell-ga5d6d85e9_1920.jpg") no-repeat;
+    background-position: top;
     background-color: white;
     width: 100%;
     height: 400px;
@@ -142,7 +143,7 @@ header {
 #mainboxes_mainpage div {
     width: 33.3%;
     height: 400px;
-    background-color: rgba(253, 252, 252, .3);
+    background-color: rgba(253, 252, 252, .5);
     float: left;
     padding: 90px 40px;
     border: 8px solid black;
@@ -239,16 +240,45 @@ footer a {
 }
 
 /* contact section */
+
 #contact {
     height: 800px;
     width: 100%; 
     overflow: hidden;
     position: relative;
+    background: url("../media/image/sports_bell.jpg") no-repeat bottom center;
+    background-color: black; 
+    text-align: center;
+    margin: auto;
 }
 
-#contact_image {
-    height: 800px;
-    width: 100%;  
-    background: url("../media/image/sports_bell.jpg") no-repeat bottom center;
-    background-color: black;
+#contact h1 {
+    margin: 50px auto;
+    font-size: 3em;
+}
+
+#contact h2 {
+    margin: 30px auto;
+    font-size: 2em;
+}
+
+#contact p {
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px #424656;
+}
+
+#contact a:hover {
+    color: #00A2C5;
+    border-bottom: 1px solid #00A2C5;
+}
+
+#contact iframe {
+    width: 400px;
+    height: 250px;
 }
