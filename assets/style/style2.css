@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Gymnast;
+    src: url(../style/font/gymnast.ttf) format("truetype");
+}
+@font-face {
+    font-family: Gymkhana;
+    src: url(../style/font/gymkhana.ttf) format("truetype");
+}
+
+/*
+#00C4E9 light blue
+#00DBFD ligther blue
+#00A2C5 not so light blue
+#00FFFF aquablue
+#A9AD9B light grey
+#444939 dark grey
+#A8EB12 light geen
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
