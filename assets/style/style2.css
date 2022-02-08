@@ -24,23 +24,46 @@
 }
 
 /* membership */
-#membership {
+#memberpage {
     height: 800px;
     width: 100%; 
     overflow: hidden;
     position: relative;
     background: url("../media/image/gym_blackwhite.jpg") no-repeat center center;
-    background-color: black; 
+    background-color: white; 
     text-align: center;
     margin: auto;
 }
 
-#membership h1 {
-    margin: 50px auto;
+.membership h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
     font-size: 3em;
 }
 
-#membership p {
+.membership p {
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+
+.membership table {
+    padding: 5px;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.membership h2 {
+    margin-top: 10px;
+}
+
+.margintop {
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.difcolor {
+    color: #A9AD9B;
 }
